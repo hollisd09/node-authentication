@@ -1,0 +1,31 @@
+{
+  "name": "node-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemond server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollisd09/node-authentication.git"
+  },
+  "author": "Danielle Hollis <hollisd09@gmail.com> (http://www.hollisdesignsstudio.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollisd09/node-authentication/issues"
+  },
+  "homepage": "https://github.com/hollisd09/node-authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-redis": "^3.0.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  }
+}
