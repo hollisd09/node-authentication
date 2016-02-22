@@ -8,6 +8,20 @@
     "start": "node server.js",
     "serve": "nodemond server.js"
   },
+  "eslintConfig": {
+    "globals": {
+      "res": true
+    },
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hollisd09/node-authentication.git"
